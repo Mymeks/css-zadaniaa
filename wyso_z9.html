@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wysocki Z9_html</title>
+
+    <!-- Podłączenie zewnętrznego arkusza stylów -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family: Arial; font-size: 16px;">
+
+<h1>Zadanie 9 – Styl zewnętrzny</h1>
+
+<ol>
+
+<li>
+    Składnia teoretyczna:
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <td>
+<pre>
+&lt;head&gt;
+&nbsp;&nbsp;&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+</pre>
+            </td>
+        </tr>
+    </table>
+</li>
+
+<li>
+    Gdzie wstawiany jest styl zewnętrzny, jaki znacznik go obsługuje i ile razy może występować?
+    <br>
+    Styl zewnętrzny wstawiany jest w sekcji <b>&lt;head&gt;</b> dokumentu HTML. 
+    Odpowiada za to znacznik <b>&lt;link&gt;</b>. 
+    W jednym dokumencie można użyć wielu znaczników <b>&lt;link&gt;</b>, aby podłączyć kilka arkuszy CSS.
+</li>
+
+<li>
+    Najprostsza forma wstawiania stylu zewnętrznego:
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <td>
+                &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+            </td>
+        </tr>
+    </table>
+</li>
+
+<li>
+    Ile arkuszy stylów można dołączyć i jaka zasada obowiązuje?
+    <br>
+    Do jednego dokumentu HTML można dołączyć wiele arkuszy CSS. 
+    Obowiązuje zasada kaskadowości – style są nakładane warstwowo.
+</li>
+
+<li>
+    Co się dzieje w przypadku konfliktów?
+    <br>
+    W przypadku konfliktów (te same style w różnych arkuszach), 
+    stosowana jest zasada kaskady CSS – pierwszeństwo ma styl o większej ważności, 
+    bliżej dokumentu lub zapisany później.
+</li>
+
+<li>
+    Jak tworzy się i edytuje pliki w edytorze tekstowym?
+    <br>
+    Plik CSS tworzy się w zwykłym edytorze tekstowym (np. Notatnik), 
+    zapisując go z rozszerzeniem .css i wpisując reguły CSS ręcznie.
+</li>
+
+<li>
+    Jak tworzy się i edytuje pliki w specjalnym edytorze CSS?
+    <br>
+    W edytorach CSS (np. Visual Studio Code, Sublime Text) 
+    korzysta się z podświetlania składni, autouzupełniania i podglądu kodu, 
+    co ułatwia edycję stylów.
+</li>
+
+<li>
+    Jakie rozszerzenie ma plik zewnętrznego arkusza stylów?
+    <br>
+    Plik zewnętrznego arkusza stylów posiada rozszerzenie <b>.css</b>.
+</li>
+
+<li>
+    Zalety zewnętrznego arkusza stylów:
+    <ul>
+        <li>Ułatwia zarządzanie stylem wielu stron jednocześnie</li>
+        <li>Oddziela treść HTML od wyglądu strony</li>
+    </ul>
+</li>
+
+<li>
+    Uwagi na temat pisania w CSS:
+    <br>
+    Należy pamiętać o średnikach po każdej deklaracji, poprawnej składni, 
+    oraz o czytelnym formatowaniu kodu dla łatwiejszej edycji.
+</li>
+
+</ol>
+
+<!--  Wysocki Z9_html  -->
+
+</body>
+</html>

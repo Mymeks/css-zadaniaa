@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Wysocki Z4_html</title>
+
+<style>
+table {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+textarea {
+    width: 95%;
+    height: 70px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Sposoby podłączania CSS do strony WWW</h2>
+
+<table>
+<tr>
+<td>
+1. Styl liniowy
+
+<textarea readonly>
+<p style="color:red;">Tekst</p>
+</textarea>
+
+Styl wpisany w znaczniku HTML.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+2. Styl wewnętrzny
+
+<textarea readonly>
+<style>
+p { color: blue; }
+</style>
+</textarea>
+
+Style w sekcji head.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+3. Zewnętrzny arkusz CSS
+
+<textarea readonly>
+<link rel="stylesheet" href="style.css">
+</textarea>
+
+Style w osobnym pliku.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+4. Import CSS
+
+<textarea readonly>
+<style>
+@import url("style.css");
+</style>
+</textarea>
+
+Importowanie stylów.
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+5. Style domyślne
+
+<textarea readonly>
+Przeglądarka sama nadaje styl
+np. nagłówkom i paragrafom.
+</textarea>
+
+Style ustawione przez przeglądarkę.
+</td>
+</tr>
+</table>
+
+</body>
+
+<!--  Wysocki Z4_html  -->
+
+</html>
