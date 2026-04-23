@@ -1,9 +1,11 @@
-p {
-    color: #67AB5D;
-}
-
-body {
-    background-color: rgb(57%, 36%, 80%);
-}
-
-/*  Wysocki Z15_html  */
+p  
+{ 
+ color:    #B22222; 
+ font-size:  15px; 
+} 
+body  
+{ 
+ color:    rgb(57%, 36%, 80%);
+ font-size:  15px; 
+} 
+/*  Wysocki Zad15_css  */ 
